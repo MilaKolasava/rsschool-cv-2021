@@ -1,4 +1,5 @@
 body {
+  margin: 0 auto;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: medium;
   background-color: rgb(240, 228, 252);
@@ -15,8 +16,13 @@ body {
   display: flex;
   justify-content: left;
 }
-
+.photo {
+  padding: 0px;
+  margin: 0 auto;
+  align-items: center;
+}
 .block {
+  padding: 0px;
   margin: 0 auto;
   margin-right: 5%;
   border: 2px solid rgb(104, 45, 156);
@@ -43,4 +49,12 @@ footer > p {
 h2,
 h1 {
   color: rgb(104, 45, 156);
+}
+
+img {
+  border-radius: 5%;
+  padding: 0%;
+}
+div.photo {
+  height: 350px;
 }
